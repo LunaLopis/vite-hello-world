@@ -1,18 +1,20 @@
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import AppTitle from './components/AppTitle.vue'
+import AppJambotron from './components/AppJambotron.vue'
 export default {
-  components:{
-    AppTitle
+  components: {
+    AppTitle,
+    AppJambotron
   }
 }
 </script>
 
 
 <template >
-  <div>
-    <AppTitle />
-  </div>
+  <AppTitle />
+
+  <AppJambotron />
 </template>
 
 
